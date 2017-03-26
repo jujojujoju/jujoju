@@ -74,8 +74,6 @@ public class MyPlayList1 extends AppCompatActivity
 
         setContentView(R.layout.my_playlist1);
 
-
-
         SharedPreferences pref = getSharedPreferences("music_app_data",MODE_PRIVATE);
         String str = pref.getString("playlist_1","nonono");
 
@@ -130,10 +128,6 @@ public class MyPlayList1 extends AppCompatActivity
 //        listview.setOnLongClickListener(longlistener);
 
     }
-
-
-
-
 
     AdapterView.OnItemClickListener listener= new AdapterView.OnItemClickListener()
     {
